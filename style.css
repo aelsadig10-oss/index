@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
+h1{
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 3px 3px 1px white;
+}
+p{
+  text-transform: uppercase;
+  text-align: center;
+  color: darkgoldenrod ;
+  text-shadow: 1px 1px 1px black ;
+}
+*{
+  font-style: italic;
+  
+  
+}
+body{
+  background-image: linear-gradient(to right, #79fff9ae,lightblue);
+}
+fieldset{
+   width: 93%;
+   height: 280px;
+   border-radius: 50px;
+   border-style:  outset ;
+   border-color: tomato ;
+}
+.name{
+  border-style: hidden ;
+  margin: 15px;
+  padding: 5px;
+  border-radius: 20px ;
+  width: 260px;
+}
+.email{
+    border-style: hidden ;
+  margin: 15px;
+  padding: 5px;
+  border-radius: 20px ;
+  width: 250px;
+}
+.password{
+    border-style: hidden ;
+  margin: 15px;
+  padding: 5px;
+  border-radius: 20px ;
+  width: 240px;
+}
+.submit{
+  border-radius: 15px;
+  font-size: 25px;
+  color: black ;
+  background-color: #79fff9ae ;
+}
